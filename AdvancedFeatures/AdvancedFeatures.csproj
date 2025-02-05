@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+	  <OutputType>Exe</OutputType>
+	  <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Delegates\Actions\" />
+    <Folder Include="Delegates\Functions\" />
+    <Folder Include="Attributes\" />
+    <Folder Include="Lamda\" />
+    <Folder Include="Dynamic\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataManagement\DataManagement.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CarServices">
+      <HintPath>..\..\..\..\Users\agoxhaj001\source\repos\DLLs\CarServices.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

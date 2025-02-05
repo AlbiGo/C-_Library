@@ -1,0 +1,3 @@
+﻿Factory method relies on methods for ex CreatePages
+
+public abstract void CreatePages();
