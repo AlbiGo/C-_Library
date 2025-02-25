@@ -30,7 +30,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memory_Span", "Memory_Span\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallell", "Parallell\Parallell.csproj", "{A55F30C7-DDB8-4706-9B1F-6513573E9698}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuditEntry", "AuditEntry\AuditEntry\AuditEntry.csproj", "{E2700936-E6B1-405A-86AA-7F417E709C64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuditEntry", "AuditEntry\AuditEntry.csproj", "{E2700936-E6B1-405A-86AA-7F417E709C64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

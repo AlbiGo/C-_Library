@@ -18,9 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="AuditEntry">
-      <HintPath>..\AuditEntry\AuditEntry\bin\Debug\net6.0\AuditEntry.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\AuditEntry\AuditEntry.csproj" />
   </ItemGroup>
 
 </Project>

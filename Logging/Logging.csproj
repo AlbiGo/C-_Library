@@ -9,12 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataManagement\DataManagement.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="DependencyInjection">
-      <HintPath>..\Dependency\bin\Debug\net8.0\DependencyInjection.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\Dependency\DependencyInjection.csproj" />
   </ItemGroup>
 
 </Project>
