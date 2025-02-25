@@ -21,7 +21,7 @@ Clone this repository to your local machine:
 
 bash
 Copy
-git clone https://github.com/AlbiGo/C-_Library.git
+git clone https://github.com/AlbiGo/.NET_Library.git
 Open the repository in Visual Studio or any other preferred C# IDE.
 
 Navigate through the different folders to explore the code examples.
