@@ -1,6 +1,7 @@
 ﻿using DataManagement.Entities;
 using Dependency.Concept;
 using Logging.Repositories;
+using System.Data.Entity;
 
 namespace Logging.Services
 {
@@ -23,8 +24,8 @@ namespace Logging.Services
 
         public async Task<List<Log>> GetLogs()
         {
-            return _exceptionLogRepository.CustomQuery()
-                .ToList();
+            return await (_exceptionLogRepository.CustomQuery()
+                .ToListAsync());
         }
     }
 }
