@@ -8,11 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DependencyInjection" Version="1.0.0" />
+    <ProjectReference Include="..\DataManagement\DataManagement.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataManagement\DataManagement.csproj" />
+    <Reference Include="DependencyInjection">
+      <HintPath>..\Dependency\bin\Debug\net8.0\DependencyInjection.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

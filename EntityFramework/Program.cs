@@ -32,13 +32,11 @@ users.ForEach(x =>
     Console.WriteLine(x.Id + "  |   " + x.Email);
 });
 
-
 Console.WriteLine("------------------------------------------------------------------------------");
 
 var _user = await _repo.CustomQuery()
     .Where(p => p.Email == "someEmail")
     .FirstOrDefaultAsync();
-
 
 _user.Email = "changedEmail";
 
@@ -53,5 +51,3 @@ users2.ForEach(x =>
 {
     Console.WriteLine(x.Id + "  |   " + x.Email);
 });
-
-

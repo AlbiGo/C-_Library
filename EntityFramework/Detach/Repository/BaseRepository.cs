@@ -1,21 +1,15 @@
-﻿using AuditEntry;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace EntityFramework.Detach.Repository
 {
     public class BaseRepository<T> where T : class
     {
-        private readonly AuditDbContext _databaseContext;
+        private readonly AuditEntry.AuditDbContext _databaseContext;
         private readonly DbSet<T> _dbSet;
 
         public BaseRepository()
         {
-            _databaseContext = new AuditDbContext();
+            _databaseContext = new AuditEntry.AuditDbContext();
             _dbSet = _databaseContext.Set<T>();
         }
 
@@ -31,8 +25,8 @@ namespace EntityFramework.Detach.Repository
 
         public async Task Add(T entity)
         {
-           await _dbSet.AddAsync(entity); 
-           await _databaseContext.SaveChangesAsync();
+            await _dbSet.AddAsync(entity);
+            await _databaseContext.SaveChangesAsync();
         }
 
         public async Task Update(T entity)
@@ -46,16 +40,14 @@ namespace EntityFramework.Detach.Repository
             await _databaseContext.SaveChangesAsync();
         }
 
-
         public async Task Remove(T entity)
         {
-             _dbSet.Remove(entity);
-             await _databaseContext.SaveChangesAsync();
+            _dbSet.Remove(entity);
+            await _databaseContext.SaveChangesAsync();
         }
 
-        public void Detach(T entity) 
+        public void Detach(T entity)
         {
-
             if (entity == null)
                 return;
 
