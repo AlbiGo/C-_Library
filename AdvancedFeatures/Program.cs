@@ -1,14 +1,4 @@
 ﻿using AdvancedFeatures.Delegates;
-using AdvancedFeatures.Events;
-using AdvancedFeatures.Expressions;
-using DataManagement.DbContext;
-using Microsoft.EntityFrameworkCore.Query.Internal;
-using System;
-using System.Linq;
-using System.Linq.Expressions;
-using static AdvancedFeatures.Delegates.ServiceGarage;
-using CarServices;
-using System.Data;
 using AdvancedFeatures.Linq;
 
 internal delegate int myDelegate(int a, int b);

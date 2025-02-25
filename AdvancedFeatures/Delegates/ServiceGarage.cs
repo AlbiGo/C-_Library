@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CarServices;
-using static AdvancedFeatures.Delegates.ServiceGarage;
-
-namespace AdvancedFeatures.Delegates
+﻿namespace AdvancedFeatures.Delegates
 {
     public class ServiceGarage
     {
         public delegate void CarServiceDelegate();
+
         private Car _car;
 
         public ServiceGarage(Car car)
