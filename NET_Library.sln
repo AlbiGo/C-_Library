@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallell", "Parallell\Para
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuditEntry", "AuditEntry\AuditEntry.csproj", "{E2700936-E6B1-405A-86AA-7F417E709C64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{0CA4D07A-E5B2-4804-A1CE-94139ABBA2C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +88,10 @@ Global
 		{E2700936-E6B1-405A-86AA-7F417E709C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2700936-E6B1-405A-86AA-7F417E709C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2700936-E6B1-405A-86AA-7F417E709C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA4D07A-E5B2-4804-A1CE-94139ABBA2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA4D07A-E5B2-4804-A1CE-94139ABBA2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA4D07A-E5B2-4804-A1CE-94139ABBA2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA4D07A-E5B2-4804-A1CE-94139ABBA2C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

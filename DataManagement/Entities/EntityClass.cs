@@ -6,11 +6,6 @@ namespace DataManagement.Entities
 {
     public class Entity1 : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
-
-        public string Name { get; set; }
-
         [ForeignKey("Entity2")]
         public int Entity2ID { get; set; }
 
@@ -23,9 +18,6 @@ namespace DataManagement.Entities
 
     public class Entity2 : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
-
         public string Desc { get; set; }
 
         public Entity5 Entity5 { get; set; }
