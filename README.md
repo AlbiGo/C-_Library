@@ -14,6 +14,15 @@ Features
 Easy-to-understand examples with explanations.
 Well-structured code for different C# topics.
 Continuously growing collection as new concepts and examples are added.
+
+The project is still on its initial steps so there is a lot of space for improvements and knowledge sharing. Everyone is invited to contribute, share knowledge or expand the library. When the library will be on great condition will be shared with the network.
+
+Please respect the contributing rules such as :
+
+1 - Always use branching and PRs.
+2 - Use descriptive branch naming. (username/(feature/bug/fix/new)/branch-name-unique-code
+3 - Be professional on PR comments.
+
 Getting Started
 To get started with this project:
 
