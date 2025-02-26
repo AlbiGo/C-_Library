@@ -1,4 +1,4 @@
-Welcome to the C# Library repository! This project is a collection of various C#/.NET/.NET Core software engineering concepts, demonstrating different practices, patterns, and techniques for C# development.
+Welcome to the C#/.NET Library repository! This project is a collection of various C#/.NET/.NET Core software engineering concepts, demonstrating different practices, patterns, and techniques for C# development.
 
 The goal of this repository is to provide helpful code examples, resources, and tools for both beginners and experienced developers looking to improve their C# programming skills. It covers topics like multithreading, dependency injection, design patterns, and more.
 
