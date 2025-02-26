@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdvancedFeatures.Generics.Data
+namespace AdvancedFeatures.Generics.Implementation.Data
 {
-    public class Data2 : MainData
+    public class Data1 : MainData
     {
-        public double Economic2 { get; set; }
+        public double Economics { get; set; }
     }
 }

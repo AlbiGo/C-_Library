@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdvancedFeatures.Generics.Data
+namespace AdvancedFeatures.Generics.Implementation.Data
 {
     public class MainData : IMainData
     {

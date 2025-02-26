@@ -11,6 +11,7 @@
     <Folder Include="Delegates\Actions\" />
     <Folder Include="Delegates\Functions\" />
     <Folder Include="Attributes\" />
+    <Folder Include="Generics\Concept\" />
     <Folder Include="Lamda\" />
     <Folder Include="Dynamic\" />
   </ItemGroup>
